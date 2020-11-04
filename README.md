@@ -56,10 +56,9 @@
 ### 1.绘制文字
   基线算法：
 
-  public static float getBaseline(Paint p) {
-
+    public static float getBaseline(Paint p) {
         Paint.FontMetrics fontMetrics = p.getFontMetrics();
 
         return (fontMetrics.descent - fontMetrics.ascent) / 2 -fontMetrics.descent;
-  }
+    }
 
